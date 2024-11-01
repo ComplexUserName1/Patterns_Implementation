@@ -7,30 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Behavioral_Patterns\Chain_of_Responsibility\" />
-    <Folder Include="Behavioral_Patterns\Command\" />
-    <Folder Include="Behavioral_Patterns\Interpreter\" />
-    <Folder Include="Behavioral_Patterns\Iterator\" />
-    <Folder Include="Behavioral_Patterns\Mediator\" />
-    <Folder Include="Behavioral_Patterns\Memento\" />
-    <Folder Include="Behavioral_Patterns\Visitor\" />
-    <Folder Include="Behavioral_Patterns\Template_Method\" />
-    <Folder Include="Behavioral_Patterns\Strategy\" />
-    <Folder Include="Behavioral_Patterns\State\" />
-    <Folder Include="Behavioral_Patterns\Observer\" />
-    <Folder Include="Creational_Patterns\Abstract_Factory\" />
-    <Folder Include="Creational_Patterns\Builder\" />
-    <Folder Include="Creational_Patterns\Factory_Method\" />
-    <Folder Include="Creational_Patterns\Singletone\" />
-    <Folder Include="Creational_Patterns\Prototype\" />
-    <Folder Include="Structural_Patterns\Adapter\" />
-    <Folder Include="Structural_Patterns\Bridge\" />
-    <Folder Include="Structural_Patterns\Composite\" />
-    <Folder Include="Structural_Patterns\Decorator\" />
-    <Folder Include="Structural_Patterns\Facade\" />
-    <Folder Include="Structural_Patterns\Flyweight\" />
-    <Folder Include="Structural_Patterns\Proxy\" />
-  </ItemGroup>
-
 </Project>
