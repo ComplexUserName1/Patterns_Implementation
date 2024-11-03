@@ -1,10 +1,5 @@
 ﻿using Implementation.Creational_Patterns.Builder.BL_Classes.Builders;
 using Implementation.Creational_Patterns.Builder.BL_Classes.Directors;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Implementation.Creational_Patterns.Builder
 {

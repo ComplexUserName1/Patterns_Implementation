@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Implementation.Creational_Patterns.Abstract_Factory.Interfaces.Products;
+﻿using Implementation.Creational_Patterns.Abstract_Factory.Interfaces.Products;
 
 namespace Implementation.Creational_Patterns.Abstract_Factory.Interfaces.Factory
 {

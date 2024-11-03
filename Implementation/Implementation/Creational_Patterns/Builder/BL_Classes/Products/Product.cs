@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Implementation.Creational_Patterns.Builder.BL_Classes.Products
 {
     // Имеет смысл использовать паттерн Строитель только тогда, когда ваши
