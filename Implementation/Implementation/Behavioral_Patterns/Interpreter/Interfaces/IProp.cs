@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Implementation.Behavioral_Patterns.Chain_of_Responsibility.Interfaces
 {
-    internal class IProp
+    internal class IProp2
     {
     }
 }

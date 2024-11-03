@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Implementation.Creational_Patterns.Abstract_Factory.Interfaces
 {
-    internal class IProp
+    internal class IProp1
     {
     }
 }
