@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Implementation.Creational_Patterns.Builder.Builder_Implementation</StartupObject>
+    <StartupObject>Implementation.Creational_Patterns.Factory_Method.Factory_Method_Implementation</StartupObject>
   </PropertyGroup>
 
 </Project>
