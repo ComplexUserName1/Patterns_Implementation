@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Implementation.Creational_Patterns.Prototype.Prototype_Implementation</StartupObject>
+    <StartupObject>Implementation.Creational_Patterns.Singletone.Thread_Safe.Thread_Safe_Singleton_Implementation</StartupObject>
   </PropertyGroup>
 
 </Project>
