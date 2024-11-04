@@ -2,7 +2,7 @@
 
 namespace Implementation.Creational_Patterns.Factory_Method
 {
-    internal class Factory_Method_Implementation
+    internal class FactoryMethodImplementation
     {
         static void Main(string[] args)
         {

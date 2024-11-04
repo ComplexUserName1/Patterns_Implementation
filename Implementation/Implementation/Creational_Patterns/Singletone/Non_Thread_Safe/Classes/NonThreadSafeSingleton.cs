@@ -7,28 +7,28 @@ namespace Implementation.Creational_Patterns.Singletone.Non_Thread_Safe.Classes
 
     // EN : The Singleton should always be a 'sealed' class to prevent class
     // inheritance through external classes and also through nested classes.
-    internal sealed class Non_Thread_Safe_Singleton
+    internal sealed class NonThreadSafeSingleton
     {
         // Конструктор Одиночки всегда должен быть скрытым, чтобы предотвратить
         // создание объекта через оператор new.
-        private Non_Thread_Safe_Singleton() { }
+        private NonThreadSafeSingleton() { }
 
         // Объект одиночки храниться в статичном поле класса. Существует
         // несколько способов инициализировать это поле, и все они имеют разные
         // достоинства и недостатки. В этом примере мы рассмотрим простейший из
         // них, недостатком которого является полная неспособность правильно
         // работать в многопоточной среде.
-        private static Non_Thread_Safe_Singleton _instance;
+        private static NonThreadSafeSingleton _instance;
 
         // Это статический метод, управляющий доступом к экземпляру одиночки.
         // При первом запуске, он создаёт экземпляр одиночки и помещает его в
         // статическое поле. При последующих запусках, он возвращает клиенту
         // объект, хранящийся в статическом поле.
-        public static Non_Thread_Safe_Singleton GetInstance()
+        public static NonThreadSafeSingleton GetInstance()
         {
             if (_instance == null)
             {
-                _instance = new Non_Thread_Safe_Singleton();
+                _instance = new NonThreadSafeSingleton();
             }
             return _instance;
         }

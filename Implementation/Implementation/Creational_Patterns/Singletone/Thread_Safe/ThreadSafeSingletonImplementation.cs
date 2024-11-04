@@ -2,7 +2,7 @@
 
 namespace Implementation.Creational_Patterns.Singletone.Thread_Safe
 {
-    internal class Thread_Safe_Singleton_Implementation
+    internal class ThreadSafeSingletonImplementation
     {
         static void Main(string[] args)
         {
@@ -33,7 +33,7 @@ namespace Implementation.Creational_Patterns.Singletone.Thread_Safe
 
         public static void TestSingleton(string value)
         {
-            Thread_Safe_Singleton singleton = Thread_Safe_Singleton.GetInstance(value);
+            ThreadSafeSingleton singleton = ThreadSafeSingleton.GetInstance(value);
             Console.WriteLine(singleton.Value);
         }
     }

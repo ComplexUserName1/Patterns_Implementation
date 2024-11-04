@@ -2,7 +2,7 @@
 
 namespace Implementation.Creational_Patterns.Prototype
 {
-    internal class Prototype_Implementation
+    internal class PrototypeImplementation
     {
         static void Main(string[] args)
         {

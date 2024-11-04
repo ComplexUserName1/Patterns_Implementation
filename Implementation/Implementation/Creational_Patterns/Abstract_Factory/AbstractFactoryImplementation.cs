@@ -2,7 +2,7 @@
 
 namespace Implementation.Creational_Patterns.Abstract_Factory
 {
-    internal class Abstract_Factory_Implementation
+    internal class AbstractFactoryImplementation
     {
         static void Main(string[] args)
         {

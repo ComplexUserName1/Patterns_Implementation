@@ -4,17 +4,17 @@ namespace Implementation.Creational_Patterns.Singletone.Thread_Safe.Classes
     // Эта реализация Одиночки называется "блокировка с двойной проверкой"
     // (double check lock). Она безопасна в многопоточной среде, а также
     // позволяет отложенную(Lazy) инициализацию объекта Одиночки.
-    internal class Thread_Safe_Singleton
+    internal class ThreadSafeSingleton
     {
-        private Thread_Safe_Singleton() { }
+        private ThreadSafeSingleton() { }
 
-        private static Thread_Safe_Singleton _instance;
+        private static ThreadSafeSingleton _instance;
 
         // У нас теперь есть объект-блокировка для синхронизации потоков во
         // время первого доступа к Одиночке.
         private static readonly object _lock = new object();
 
-        public static Thread_Safe_Singleton GetInstance(string value)
+        public static ThreadSafeSingleton GetInstance(string value)
         {
             // Это условие нужно для того, чтобы не стопорить потоки блокировкой
             // после того как объект-одиночка уже создан.
@@ -37,7 +37,7 @@ namespace Implementation.Creational_Patterns.Singletone.Thread_Safe.Classes
                     // создан.
                     if (_instance == null)
                     {
-                        _instance = new Thread_Safe_Singleton();
+                        _instance = new ThreadSafeSingleton();
                         _instance.Value = value;
                     }
                 }

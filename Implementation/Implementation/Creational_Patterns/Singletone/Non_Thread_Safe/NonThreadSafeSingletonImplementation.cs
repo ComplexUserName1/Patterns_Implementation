@@ -2,13 +2,13 @@
 
 namespace Implementation.Creational_Patterns.Singletone.Non_Thread_Safe
 {
-    internal class Non_Thread_Safe_Singleton_Implementation
+    internal class NonThreadSafeSingletonImplementation
     {
         static void Main(string[] args)
         {
             // Клиентский код.
-            Non_Thread_Safe_Singleton s1 = Non_Thread_Safe_Singleton.GetInstance();
-            Non_Thread_Safe_Singleton s2 = Non_Thread_Safe_Singleton.GetInstance();
+            NonThreadSafeSingleton s1 = NonThreadSafeSingleton.GetInstance();
+            NonThreadSafeSingleton s2 = NonThreadSafeSingleton.GetInstance();
 
             if (s1 == s2)
             {

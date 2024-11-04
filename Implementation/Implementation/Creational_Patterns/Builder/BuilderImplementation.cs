@@ -3,7 +3,7 @@ using Implementation.Creational_Patterns.Builder.BL_Classes.Directors;
 
 namespace Implementation.Creational_Patterns.Builder
 {
-    internal class Builder_Implementation
+    internal class BuilderImplementation
     {
         static void Main(string[] args)
         {
