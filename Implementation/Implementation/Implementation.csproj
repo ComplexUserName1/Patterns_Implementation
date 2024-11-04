@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Implementation.StructuralPatterns.Facade.FacadeImplementation</StartupObject>
+    <StartupObject>Implementation.StructuralPatterns.Flyweight.FlyweightImplementation</StartupObject>
   </PropertyGroup>
 
 </Project>
