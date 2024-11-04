@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Implementation.Structural_Patterns.Bridge.BridgeImplementation</StartupObject>
+    <StartupObject>Implementation.StructuralPatterns.Composite.CompositeImplementation</StartupObject>
   </PropertyGroup>
 
 </Project>
