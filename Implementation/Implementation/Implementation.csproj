@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Implementation.BehavioralPatterns.ChainOfResponsibility.ChainOfResponsobilityImplementation</StartupObject>
+    <StartupObject>Implementation.BehavioralPatterns.Command.CommandImplementation</StartupObject>
   </PropertyGroup>
 
 </Project>
