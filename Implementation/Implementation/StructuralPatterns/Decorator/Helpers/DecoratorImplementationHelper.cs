@@ -15,14 +15,8 @@ namespace Implementation.StructuralPatterns.Decorator.Helpers
             client.ClientCode(simple);
             Console.WriteLine();
 
-            // Обёртываем простой компонент в декораторы
-            foreach (var decorator in decorators)
-            {
-                simple = decorator;
-            }
-
             Console.WriteLine("Client: Now I've got a decorated component:");
-            client.ClientCode(simple);
+            client.ClientCode(decorators.Last());
         }
     }
 }
