@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Implementation.BehavioralPatterns.Iterator.FusionOfIsDoneAndMoveNext.FusionOfIsDoneAndMoveNextImplementation</StartupObject>
+    <StartupObject>Implementation.BehavioralPatterns.Mediator.MediatorImplementation</StartupObject>
   </PropertyGroup>
 
 </Project>
