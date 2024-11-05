@@ -5,7 +5,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Implementation.BehavioralPatterns.State.BLClasses.StateImplementation</StartupObject>
+    <StartupObject>Implementation.BehavioralPatterns.Strategy.StrategyImplementation</StartupObject>
   </PropertyGroup>
 
 </Project>
